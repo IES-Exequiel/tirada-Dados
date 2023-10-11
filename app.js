@@ -17,4 +17,9 @@ function numeroAleatorio(min, max) {
       sumaLanzamientos = sumaLanzamientos + dado1 + dado2;
       numerosObtenidos.push(sumaLanzamientos)
   }
-  
+
+  let i = 0;
+while (i < repeticionTiradas) {
+    tiradaDados();
+    i = i + 1;
+}
