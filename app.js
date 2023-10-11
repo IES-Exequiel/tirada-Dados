@@ -23,3 +23,8 @@ while (i < repeticionTiradas) {
     tiradaDados();
     i = i + 1;
 }
+
+console.log("Resultado de cada tirada:");
+console.table(numerosTotales);
+console.log("Resultado sumando anteriores tiradas:");
+console.table(numerosObtenidos);
